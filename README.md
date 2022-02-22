@@ -14,7 +14,7 @@ It also contains a data selection script, that compiles some information of inte
 Once you cloned	this repository, on its	main directory do:
 
 ```BASH
-$ pip install .
+$ make init
 ```
 
 ## Usage
@@ -43,7 +43,13 @@ The script above will:
 ## Module tests
 The test below will check if the API is being accessed successfully.
 ```BASH
-$ pytest -v tests/
+$ make test
+```
+
+## Removing module
+To remove the module, do:
+```BASH
+$ make remo
 ```
 
 ## References
