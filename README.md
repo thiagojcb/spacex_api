@@ -1,6 +1,8 @@
 Module to access SpaceX	API
 ========================
 
+(Instruções em português: [README.pt](https://github.com/thiagojcb/spacex_api/blob/main/README.pt.md))
+
 This simple project accesses the [SpaceX API](https://docs.spacexdata.com/#bc65ba60-decf-4289-bb04-4ca9df01b9c1) to get their rocket launches information.
 
 It also contains a data selection script, that compiles some information of interest.
