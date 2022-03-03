@@ -1,7 +1,7 @@
 Módulo para acessar o API da SpaceX
 ========================
 
-For instructions in English: [README](https://github.com/thiagojcb/spacex_api/blob/main/README.md)
+(instructions in English: [README](https://github.com/thiagojcb/spacex_api/blob/main/README.md))
 
 Este simples projeto acessa o [SpaceX API](https://docs.spacexdata.com/#bc65ba60-decf-4289-bb04-4ca9df01b9c1) para obter informações sobre o lançamento de seus foguetes.
 
