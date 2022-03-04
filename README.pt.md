@@ -3,7 +3,7 @@ Módulo para acessar o API da SpaceX
 
 (instructions in English: [README](https://github.com/thiagojcb/spacex_api/blob/main/README.md))
 
-Este simples projeto acessa o [SpaceX API](https://docs.spacexdata.com/#bc65ba60-decf-4289-bb04-4ca9df01b9c1) para obter informações sobre o lançamento de seus foguetes.
+Este módulo acessa o [SpaceX API](https://docs.spacexdata.com/#bc65ba60-decf-4289-bb04-4ca9df01b9c1) para obter informações sobre lançamentos de foguetes da empresa.
 
 O projeto também contém uma macro de seleção de dados, que compila algumas informações de interesse.
 
@@ -13,7 +13,7 @@ O projeto também contém uma macro de seleção de dados, que compila algumas i
 
 ## Instalação
 
-Uma vez que você clonou este repositório, em seu diretório principal o digite:
+Uma vez que você clonou este repositório, estando no diretório principal do módulo digite:
 
 ```BASH
 $ make init
@@ -36,7 +36,7 @@ Execute o seguinte comando:
 ```BASH
 $ python launches_summary.py
 ```
-A macro acima irá
+A macro acima irá:
 - Indicar o ano que tem mais lançamentos
 - Indicar o local onde aconteceu a maioria dos lançamentos
 - Recuperar o número de lançamentos em um período específico de anos (ex: 2019, 2021)
